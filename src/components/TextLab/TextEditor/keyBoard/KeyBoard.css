@@ -1,0 +1,42 @@
+.keyBoardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.keyBoardRow {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.keyBoardKey {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1.5px solid #EEDBD6;
+    border-radius: 5px;
+    background-color: rgb(255, 245, 242);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.keyBoardKey:hover {
+    border: 1px solid rgb(255, 245, 242);
+    background-color: #EEDBD6;}
+
+.keyBoardKey:active {
+    background-color: #c2a8a1;
+    transform: scale(0.95);
+}
+
+/* מקש רווח גדול */
+.spaceKey {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* מקש אנטר מעט רחב */
+.enterKey {
+    flex: 0 0 100px;
+}

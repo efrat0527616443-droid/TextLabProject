@@ -1,0 +1,31 @@
+.LogoutContainer {
+    width: 200px;
+    height: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.LogoutContainer button {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.LogoutContainer button {
+    margin: 1.5px 0;
+    display: block;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #EEDBD6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.LogoutContainer button:hover {
+    background-color: #c2a8a1;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,31 @@
+.filesListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filesListButtons button {
+    margin: 4px 0;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background-color: #EEDBD6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.filesListButtons button:hover {
+    background-color: #c2a8a1;
+    transform: translateY(-2px);
+}
+
+.filesListTitle {
+    color: #c2a8a1;
+}
+
+.filesListButtons {
+    min-height: 50px;
+    max-height: 50px;
+}
